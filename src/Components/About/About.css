@@ -93,6 +93,16 @@
     transform: scale(1.02);
     transition: 0.3s;
 }
+.about_img {
+    width: auto;
+    max-width: 400px;  /* Limits image size on large screens */
+    height: auto;
+    border-radius: 20px; /* Optional: add rounded corners */
+    display: block;
+    margin: 0 auto; /* Center image horizontally */
+    padding-top: 20px ;
+}
+
 @media(max-width:768px){
     .about{
         gap: 80px;
