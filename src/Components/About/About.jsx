@@ -5,7 +5,7 @@ import profile_img from '../../assets/cat_img.png'
 
 const About = () => {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className="about-title">
                 <h1>About me</h1>
                 <img src={theme_pattern} alt="" />
@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>At Kempower, I gained experience in both front-end and backend development with Angular, JavaScript and AWS cloud services. I developed and maintained web application interfaces, integrated AWS services like Lambda and S3, and ensured code quality through Jest and Playwright testing. My strong teamwork and dedication to learning drive my goal of creating impactful, user-friendly applications that solve real-world problems.</p>
+                        <p>At Kempower, I gained experience in both front-end and backend development with Angular, JavaScript and AWS cloud services. I developed and maintained web application interfaces, integrated AWS services like Lambda and S3, and ensured code quality through Jest and Playwright testing.</p>
                         <p>My strong teamwork and dedication to learning drive my goal of creating impactful, user-friendly applications that solve real-world problems.</p>
                     </div>
                 
