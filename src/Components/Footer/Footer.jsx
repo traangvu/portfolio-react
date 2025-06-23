@@ -24,8 +24,6 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p className='footer-bottom-left'>© 2025 Trang Vu. All rights reserved</p>
                 <div className="footer-bottom-right">
-                    <p>Terms of Services</p>
-                    <p>Privacy Policy</p>
                     <p>Connect with me</p>
                 </div>
             </div>

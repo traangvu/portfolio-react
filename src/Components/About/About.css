@@ -32,7 +32,7 @@
 .about-para{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     font-size: 24px;
     font-weight: 500;
 }
@@ -95,12 +95,12 @@
 }
 .about_img {
     width: auto;
-    max-width: 400px;  /* Limits image size on large screens */
+    max-width: 400px;
     height: auto;
-    border-radius: 20px; /* Optional: add rounded corners */
+    border-radius: 60px;
     display: block;
-    margin: 0 auto; /* Center image horizontally */
-    padding-top: 20px ;
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 @media(max-width:768px){

@@ -11,7 +11,12 @@ return (
     <p>As a software engineering student at Metropolia University of Applied Sciences, I am passionate about developing scalable solutions using Angular, AWS, Python, JavaScript, the MERN stack, and Java OOP. I hold AWS Academy Graduate and Networking Essentials certifications, highlighting my skills in cloud computing and network engineering.</p>
     <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        <div
+            className="hero-resume"
+            onClick={() => window.open('/public/CVTrang4.pdf', '_blank', 'noopener,noreferrer')}
+            >
+            My resume
+        </div>
     </div>
 </div>
 )

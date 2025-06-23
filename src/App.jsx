@@ -1,23 +1,15 @@
+// src/App.jsx
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from './Components/Hero/Hero'
-import About from './Components/About/About'
-import Services from './Components/Services/Services'
-import MyWork from './Components/MyWork/MyWork'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import MoreWork from './pages/MoreWork'
 
-const App = () => {
+function App() {
     return (
-        <div>
-            <Navbar></Navbar>
-            <Hero></Hero>
-            <About></About>
-            <Services></Services>
-            <MyWork></MyWork>
-            <Contact></Contact>
-            <Footer></Footer>
-        </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/more-work" element={<MoreWork />} />
+        </Routes>
     )
 }
 
