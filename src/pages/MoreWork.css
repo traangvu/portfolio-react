@@ -1,0 +1,115 @@
+.morework {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px 10%;
+    color: white;
+    background-color: #0f0f0f;
+}  
+  .morework-title {
+    position: relative;
+    text-align: center;
+  } 
+  .morework-title h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .morework-title img {
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 150px;
+    opacity: 0.2;
+  }
+  .morework-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }  
+  .morework-project {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background: #1c1c1c;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(255, 0, 255, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .morework-project:hover {
+    transform: scale(1.02);
+  }
+  .morework-project img {
+    width: 360px;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  .morework-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+  }
+  .morework-details h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .tech {
+    font-size: 14px;
+    font-style: italic;
+    color: #ccc;
+  }
+  .github-link {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #00ffff;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+  }
+  .github-link:hover {
+    color: #ff00ff;
+  }
+  .morework-back {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ffffff50;
+    padding: 18px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+  .morework-back:hover {
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  @media (max-width: 768px) {
+    .morework-project {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .morework-project img {
+      width: 100%;
+    }
+  
+    .morework-details {
+      align-items: center;
+    }
+  
+    .morework-title h1 {
+      font-size: 42px;
+    }
+  }
+  
