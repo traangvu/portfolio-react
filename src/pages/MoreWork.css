@@ -5,89 +5,66 @@
     padding: 60px 10%;
     color: white;
     background-color: #0f0f0f;
-  }
-  
+}  
   .morework-title {
     position: relative;
     text-align: center;
-  }
-  
+  } 
   .morework-title h1 {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 10px;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
-  
   .morework-title img {
     position: absolute;
     bottom: -10px;
     right: 0;
     width: 150px;
-    opacity: 0.15;
+    opacity: 0.2;
   }
-  
   .morework-projects {
     display: flex;
     flex-direction: column;
     gap: 60px;
-  }
-  
+  }  
   .morework-project {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    background: linear-gradient(145deg, #1c1c1c, #151515);
+    background: #1c1c1c;
     border-radius: 20px;
     padding: 30px;
-    box-shadow: 0 4px 20px rgba(180, 21, 255, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 12px rgba(255, 0, 255, 0.1);
+    transition: transform 0.3s ease;
   }
-  
   .morework-project:hover {
     transform: scale(1.02);
-    box-shadow: 0 6px 24px rgba(255, 0, 255, 0.3);
   }
-  
   .morework-project img {
     width: 360px;
     height: auto;
     border-radius: 15px;
     object-fit: cover;
-    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
   }
-  
   .morework-details {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
     justify-content: center;
   }
-  
   .morework-details h2 {
-    font-size: 30px;
-    font-weight: 600;
-    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    margin-bottom: 6px;
   }
-  
   .description {
     font-size: 16px;
     line-height: 1.6;
-    color: #dddddd;
   }
-  
   .tech {
     font-size: 14px;
     font-style: italic;
-    color: #bbbbbb;
+    color: #ccc;
   }
-  
   .github-link {
     margin-top: 10px;
     font-size: 16px;
@@ -96,16 +73,14 @@
     text-decoration: underline;
     transition: color 0.2s ease;
   }
-  
   .github-link:hover {
     color: #ff00ff;
   }
-  
   .morework-back {
     display: flex;
     align-items: center;
     gap: 10px;
-    border: 2px solid #ffffff30;
+    border: 2px solid #ffffff50;
     padding: 18px 30px;
     font-size: 18px;
     border-radius: 50px;
@@ -113,16 +88,11 @@
     width: fit-content;
     margin: 0 auto;
     transition: all 0.3s ease;
-    color: #ffffff;
   }
-  
   .morework-back:hover {
     gap: 20px;
-    background: rgba(255, 255, 255, 0.05);
-    border-color: #ff00ff;
-    color: #ff00ff;
+    background-color: rgba(255, 255, 255, 0.05);
   }
-  
   @media (max-width: 768px) {
     .morework-project {
       flex-direction: column;
