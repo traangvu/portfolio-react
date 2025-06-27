@@ -22,31 +22,31 @@ const morework_data = [
         },
         {
         w_img: work3,
-        title: "Blog CMS",
+        title: "Task Beat - Android mobile app (",
         description: "Content management system where users can write blogs in Markdown. Features include tagging, search, and dark/light theme toggle.",
         techStack: ["Next.js", "Tailwind CSS", "Markdown"],
         github: "https://github.com/yourusername/blog-cms"
         },
         {
         w_img: work4,
-        title: "Admin Dashboard",
-        description: "An analytics dashboard with user stats, custom charts, and role-based access control. Built to scale with modular components.",
-        techStack: ["React", "Chart.js", "Material UI"],
-        github: "https://github.com/yourusername/admin-dashboard"
+        title: "SuomiSprint - Finnish Language Educational Platform",
+        description: "This is a MERN (MongoDB, Express.js, React, Node.js) full-stack application designed for online Finnish language courses. It incorporates essential features such as authentication and authorization using JWT (JSON Web Tokens) for secure access. User passwords are securely hashed using bcrypt for data protection. The application is hosted on Render for reliable deployment, and testing is implemented using Supertest and Jest to ensure its functionality and reliability.",
+        techStack: ["Javascript", "MERN (MongoDB, Express.js, React, Node.js)", "JWT (JSON Web Tokens)", "Supertest, Jest", "Render"],
+        github: "https://github.com/A-Yerkeshev/suomisprint"
         },
         {
         w_img: work5,
-        title: "Landing Page",
-        description: "High-conversion landing page for a fictional product, with animations, testimonials, and an email subscription feature.",
-        techStack: ["HTML", "CSS", "JavaScript", "GSAP"],
+        title: "Design Pattern in Java",
+        description: "A project providing the chance to practice and understand 22 design patterns (behavioral, creational, and structural design pattern types. The tasks gave a proper view on object oriented software design and architecture.",
+        techStack: ["Java", "OOP", "Description and Modelling Technique"],
         github: "https://github.com/yourusername/landing-page"
         },
         {
         w_img: work6,
         title: "Receipt uploader Backend",
-        description: "A React Native UI kit prototype for a productivity app. Includes reusable components like cards, modals, and tab navigation.",
-        techStack: ["React Native", "Expo", "Styled Components"],
-        github: "https://github.com/yourusername/mobile-ui-kit"
+        description: " An image uploader service for receipt scanning capable of storing a photo of a receipt and returning it in different resolutions for use in the UI tools. A minimalistic permissions system was implemented, so that only the users can see their own receipts. Design the API with the use case in mind",
+        techStack: ["Go", "RESTful API", "GraphQL", "Built-in Go testing"],
+        github: "https://github.com/traangvu/zevoy.git"
         }
     ];
     
