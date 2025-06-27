@@ -1,9 +1,9 @@
-import project1_img from '../assets/minimal_project_img.jpeg'
-import project2_img from '../assets/taskbeat_project_img.png'
-import project3_img from '../assets/suomisprint_project_img.png'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import project1_img from '../assets/portfolio_project_img.png'
+import project2_img from '../assets/minimal_project_img.jpeg'
+import project3_img from '../assets/taskbeat_project_img.png'
+import project4_img from '../assets/suomisprint_project_img.png'
+import project5_img from '../assets/design_pattern_project_img.png'
+import project6_img from '../assets/receipt_project_img.png'
 
 const mywork_data = [
     {

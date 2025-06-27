@@ -1,10 +1,9 @@
-import work1 from '../assets/minimal_project_img.jpeg'
-import work2 from '../assets/taskbeat_project_img.png'
-import work3 from '../assets/suomisprint_project_img.png'
-import work4 from '../assets/project_4.svg'
-import work5 from '../assets/project_5.svg'
-import work6 from '../assets/project_6.svg'
-// Add more as needed...
+import work1 from '../assets/portfolio_project_img.png'
+import work2 from '../assets/minimal_project_img.jpeg'
+import work3 from '../assets/taskbeat_project_img.png'
+import work4 from '../assets/suomisprint_project_img.png'
+import work5 from '../assets/design_pattern_project_img.png'
+import work6 from '../assets/receipt_project_img.png'
 
 const morework_data = [
     {
@@ -12,11 +11,11 @@ const morework_data = [
         title: "Portfolio Website",
         description: "A responsive and animated portfolio site showcasing developer projects, about section, and contact form. Built for easy customization.",
         techStack: ["React", "CSS", "Framer Motion"],
-        github: "https://github.com/yourusername/portfolio-site"
+        github: "https://github.com/traangvu/portfolio-react"
         },
         {
         w_img: work2,
-        title: "E-commerce Platform",
+        title: "The Minimal NoteApp",
         description: "A mock online store with dynamic product listings, cart functionality, and checkout simulation. Includes responsive filters and pagination.",
         techStack: ["React", "Redux", "Bootstrap"],
         github: "https://github.com/yourusername/ecommerce-platform"
@@ -44,7 +43,7 @@ const morework_data = [
         },
         {
         w_img: work6,
-        title: "Mobile App UI Kit",
+        title: "Receipt uploader Backend",
         description: "A React Native UI kit prototype for a productivity app. Includes reusable components like cards, modals, and tab navigation.",
         techStack: ["React Native", "Expo", "Styled Components"],
         github: "https://github.com/yourusername/mobile-ui-kit"
