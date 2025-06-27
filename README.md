@@ -4,7 +4,7 @@
 
 A modern, responsive personal portfolio built with **React** to showcase my latest projects, skills, and contact information.
 
-![screenshot](./src/assets/portfolio_project.png)
+![screenshot](./src/assets/portfolio_project_img.png)
 
 ---
 
