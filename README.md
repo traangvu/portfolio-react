@@ -1,12 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🚀 Developer Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, responsive personal portfolio built with **React** to showcase my latest projects, skills, and contact information.
 
-## Expanding the ESLint configuration
+![screenshot](./src/assets/portfolio_project.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- About Section – Highlight your background and skills
+- My Portfolio – Display featured projects with hover effects
+- More Work – Detailed view with descriptions, tech stack, links to GitHub and live demos
+- Fully Responsive – Works on all screen sizes
+- Smooth Animations – Powered by Framer Motion
+- Clean Dark Theme with gradient accents
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **React Router**
+- **Framer Motion**
+- **CSS / Flexbox / Grid**
+- **Responsive Media Queries**
+
+---
+
+## 📂 Folder Structure
+
+src/ ├── assets/ # Images, icons, patterns ├── components/ # Reusable UI components ├── pages/ │ ├── Home.jsx │ ├── MoreWork.jsx │ └── ... ├── App.js └── index.js
+
+
+---
+
+## 🚧 Getting Started
+
+1. **Clone the repository**
+git clone https://github.com/traangvu/portfolio-react.git
+cd portfolio
+
+2. **Install dependencies**
+npm install
+
+3. **Run the app**
+npm start
+
+
+
