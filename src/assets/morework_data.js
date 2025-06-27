@@ -15,17 +15,18 @@ const morework_data = [
         },
         {
         w_img: work2,
-        title: "The Minimal NoteApp",
-        description: "A mock online store with dynamic product listings, cart functionality, and checkout simulation. Includes responsive filters and pagination.",
-        techStack: ["React", "Redux", "Bootstrap"],
-        github: "https://github.com/yourusername/ecommerce-platform"
+        title: "The Minimal NotePad",
+        description: "Minimal Notepad is a JavaFX and Spring Boot-based desktop application designed to take, organize and share notes. It is built for students, teachers, and professionals and provides a user-friendly interface. With features like tagging, annotations, and collaboration, it enhances learning and teamwork and offers a seamless and efficient note-taking experience.",
+        techStack: ["Java", "JavaFX", "Spring Boot", "SceneBuilder", "SonarQube", "Docker", "Jenkins", "localization", "Unit testing"],
+        github: "https://github.com/Minimal-Alexi/Minimal-Notepad-Client", "https://github.com/Minimal-Alexi/Minimal-Notepad"
+
         },
         {
         w_img: work3,
-        title: "Task Beat - Android mobile app (",
+        title: "Task Beat - Android mobile app",
         description: "Content management system where users can write blogs in Markdown. Features include tagging, search, and dark/light theme toggle.",
-        techStack: ["Next.js", "Tailwind CSS", "Markdown"],
-        github: "https://github.com/yourusername/blog-cms"
+        techStack: ["Kotlin", "LLM (Gemini Gemma2-2B)", "Firebase Authentication and Google OAuth", "MVVM Design Patterns"],
+        github: "https://github.com/amirghari/Task-Beat"
         },
         {
         w_img: work4,
