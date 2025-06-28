@@ -18,7 +18,7 @@ const morework_data = [
         title: "The Minimal NotePad",
         description: "Minimal Notepad is a JavaFX and Spring Boot-based desktop application designed to take, organize and share notes. It is built for students, teachers, and professionals and provides a user-friendly interface. With features like tagging, annotations, and collaboration, it enhances learning and teamwork and offers a seamless and efficient note-taking experience.",
         techStack: ["Java", "JavaFX", "Spring Boot", "SceneBuilder", "SonarQube", "Docker", "Jenkins", "localization", "Unit testing"],
-        github: "https://github.com/Minimal-Alexi/Minimal-Notepad-Client", "https://github.com/Minimal-Alexi/Minimal-Notepad"
+        github: "https://github.com/Minimal-Alexi/Minimal-Notepad-Client"
 
         },
         {
