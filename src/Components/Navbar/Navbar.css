@@ -11,6 +11,23 @@
     gap: 60px;
     font-size: 20px;
 }
+.nav-menu {
+    right: -350px;
+    transition: right 0.5s;
+  }  
+  .navbar {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .nav-mob-open {
+    z-index: 20;
+  }
+  
+  .nav-menu {
+    z-index: 100;
+  }
+  
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
