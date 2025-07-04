@@ -1,39 +1,50 @@
-import React from 'react'
-import './Navbar.css'
-import logo from '../../assets/logo.png'
-import underline from '../../assets/nav_underline.svg'
-import { useState } from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import menu_open from '../../assets/menu_open.svg'
-import menu_close from '../../assets/menu_close.svg'
-import { useRef } from 'react'
+import React, { useState, useRef } from 'react';
+import './Navbar.css';
+import logo from '../../assets/logo.png';
+import underline from '../../assets/nav_underline.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import menu_open from '../../assets/menu_open.svg';
+import menu_close from '../../assets/menu_close.svg';
 
 const Navbar = () => {
-    const[menu, setMenu] = useState("home");
+    const [menu, setMenu] = useState("home");
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const menuRef = useRef();
 
-    const openMenu = () => {
-        menuRef.current.style.right="0";
-    }
-    const closeMenu = () => {
-        menuRef.current.style.right="-350px";
-    }
+    const openMenu = () => setIsMobileMenuOpen(true);
+    const closeMenu = () => setIsMobileMenuOpen(false);
 
     return (
         <div className="navbar">
-            <img className="navbar-logo-img" src={logo} alt="" />
-            <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
-            <ul ref={menuRef} className='nav-menu'>
-                <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
-                <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt=''/> : <> </> }</li>
-                <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink>{menu==="about"?<img src={underline} alt=''/> : <> </> }</li>
-                <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=>setMenu("services")}>My Skill Sets</p></AnchorLink>{menu==="services"?<img src={underline} alt=''/> : <> </> }</li>
-                <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Portfolio</p></AnchorLink>{menu==="work"?<img src={underline} alt=''/> : <> </> }</li>
-                <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline} alt=''/> : <> </> }</li>
-            </ul>
-            <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-        </div>
-    )
-}
+        <img className="navbar-logo-img" src={logo} alt="Logo" />
+        <img src={menu_open} onClick={openMenu} alt="Open menu" className='nav-mob-open' />
+        
+        <ul 
+            ref={menuRef} 
+            className={`nav-menu ${isMobileMenuOpen ? 'mobile-menu-active' : ''}`}
+        >
+            <img src={menu_close} onClick={closeMenu} alt="Close menu" className="nav-mob-close" />
+            
+            {['home', 'about', 'services', 'work', 'contact'].map((item) => (
+            <li key={item}>
+                <AnchorLink className='anchor-link' offset={50} href={`#${item}`}>
+                <p onClick={() => { setMenu(item); closeMenu(); }}>
+                    {item === 'home' ? 'Home' :
+                    item === 'about' ? 'About Me' :
+                    item === 'services' ? 'My Skill Sets' :
+                    item === 'work' ? 'Portfolio' : 'Contact'}
+                </p>
+                </AnchorLink>
+                {menu === item ? <img src={underline} alt='' /> : null}
+            </li>
+            ))}
+        </ul>
 
-export default Navbar
+        <div className='nav-connect'>
+            <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink>
+        </div>
+        </div>
+    );
+};
+
+export default Navbar;

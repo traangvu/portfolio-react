@@ -25,7 +25,7 @@ const About = () => {
                 I feel enthusiastic in software engineering and that’s why I switched my career from Business to IT.
                 </p>
                 <p>
-                I graduated with BBA degree from South Eastern Finland AMK, then coming back to Vietnam working as a business development executive in a tech company focusing on route optimisation solutions for logistics parties in FMCG and transportation fields. After that, I came back and opened a Vietnamese restaurant in Lahti. As a passionate person with diverse background in business and entrepreneurship, I hope to bring a dynamic skill set to be able to align with your company’s goals.
+                I graduated with BBA degree from South Eastern Finland AMK in 2018, then I came back to Vietnam working as a business development executive in a tech company - ABIVIN focusing on route optimization solutions for logistics parties in FMCG and transportation field. After that, I returned back to Lahti - Finland and opened a Vietnamese restaurant in Lahti. As a passionate person with diverse background in business and entrepreneurship, I hope to bring a dynamic skill set to be able to align with your company’s goals.
                 </p>
             </div>
             <div className="about-para">
@@ -33,11 +33,12 @@ const About = () => {
                 One of my ultimate goals is to develop my career path by seeking a job opportunity in the field of software engineering in Finland. 
                 </p>
                 <p>
-                I’m honoured to be selected to go on exchange in Ireland at MTU one year ago. I love discovering cultures through food, that’s why I love traveling and connecting people too.           </p>
+                In spring 2024, I’m honoured to be selected to go on exchange in Ireland at Munster Technology University, completed my fulfilled academic and self-discovered journey successfully. 
+                I love discovering cultures through food, that’s why I love traveling and connecting people too.           </p>
             </div>
             <div className="about-para">
                 <p>
-                At Kempower, I gained experience in both front-end and backend
+                In summer 2024, I was working as a Cloud Software Engineering trainee at Kempower, I gained experience in both front-end and backend
                 development with Angular, JavaScript and AWS cloud services. I
                 developed and maintained web application interfaces, integrated
                 AWS services like Lambda and S3, and ensured code quality through
@@ -68,7 +69,7 @@ const About = () => {
                 <hr style={{ width: "50%" }} />
                 </div>
                 <div className="about-skill">
-                <p>AWS</p>
+                <p>AWS services</p>
                 <hr style={{ width: "50%" }} />
                 </div>
                 <div className="about-skill">
