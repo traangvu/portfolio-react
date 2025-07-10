@@ -25,34 +25,29 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I’m a senior student majored in Software Engineering at Metropolia University of Applied Sciences in Finland. 
-              I feel enthusiastic in software engineering and that’s why I switched my career from Business to IT.
+              I’m a senior student majoring in Software Engineering at Metropolia University of Applied Sciences in Finland. I feel enthusiastic about software engineering, and that’s why I switched my career from Business to IT.
             </p>
 
             {showMore && (
               <>
                 <p>
-                  I graduated with BBA degree from South Eastern Finland AMK in 2018, then I came back to Vietnam working as a business development executive in a tech company - ABIVIN focusing on route optimization solutions for logistics parties in FMCG and transportation field.
+                  I graduated with a BBA degree from South Eastern Finland AMK in 2018, then I came back to Vietnam and worked as a business development executive at a tech company, ABIVIN, focusing on route optimization solutions for logistics parties in the FMCG and transportation fields.                </p>
+                <p>
+                  After that, I returned back to Lahti, Finland, and opened a Vietnamese restaurant in Lahti. As a passionate person with a diverse background in business and entrepreneurship, I hope to bring a dynamic skill set to be able to align with your company’s goals.
                 </p>
                 <p>
-                  After that, I returned back to Lahti - Finland and opened a Vietnamese restaurant in Lahti. As a passionate person with diverse background in business and entrepreneurship, I hope to bring a dynamic skill set to be able to align with your company’s goals.
+                  One of my ultimate goals is to develop my career path by seeking a job opportunity in the field of software engineering in Finland.
                 </p>
                 <p>
-                  One of my ultimate goals is to develop my career path by seeking a job opportunity in the field of software engineering in Finland. 
+                  In spring 2024, I’m honoured to be selected to go on exchange in Ireland at Munster Technological University, completed my fulfilling academic and self-discovery journey successfully. I love discovering cultures through food, that’s why I love traveling and connecting people too.                  I love discovering cultures through food, that’s why I love traveling and connecting people too.
                 </p>
                 <p>
-                  In spring 2024, I’m honoured to be selected to go on exchange in Ireland at Munster Technology University, completed my fulfilled academic and self-discovered journey successfully. 
-                  I love discovering cultures through food, that’s why I love traveling and connecting people too.
-                </p>
-                <p>
-                  In summer 2024, I was working as a Cloud Software Engineering trainee at Kempower, I gained experience in both front-end and backend development with Angular, JavaScript and AWS cloud services.
-                </p>
+                  In summer 2024, I was working as a Cloud Software Engineering trainee at Kempower, I gained experience in both front-end and backend development with Angular, JavaScript, and AWS cloud services.                </p>
                 <p>
                   I developed and maintained web application interfaces, integrated AWS services like Lambda and S3, and ensured code quality through Jest and Playwright testing.
                 </p>
                 <p>
-                  My strong teamwork and dedication to learning drive my goal of creating impactful, user-friendly applications that solve real-world problems.
-                </p>
+                  My strong teamwork and dedication to learning drive my goal of creating impactful, user-friendly applications that solve real-world problems.                </p>
               </>
             )}
 
