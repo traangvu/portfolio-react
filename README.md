@@ -10,7 +10,7 @@ A modern, responsive personal portfolio built with **React** to showcase my late
 
 ## ✨ Features
 
-- About Section – Highlight your background and skills
+- About Section – Highlight background and skills
 - My Portfolio – Display featured projects with hover effects
 - More Work – Detailed view with descriptions, tech stack, links to GitHub and live demos
 - Fully Responsive – Works on all screen sizes
@@ -26,14 +26,6 @@ A modern, responsive personal portfolio built with **React** to showcase my late
 - **Framer Motion**
 - **CSS / Flexbox / Grid**
 - **Responsive Media Queries**
-
----
-
-## 📂 Folder Structure
-
-src/ ├── assets/ # Images, icons, patterns ├── components/ # Reusable UI components ├── pages/ │ ├── Home.jsx │ ├── MoreWork.jsx │ └── ... ├── App.js └── index.js
-
-
 ---
 
 ## 🚧 Getting Started

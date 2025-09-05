@@ -39,7 +39,7 @@ const About = () => {
                   One of my ultimate goals is to develop my career path by seeking a job opportunity in the field of software engineering in Finland.
                 </p>
                 <p>
-                  In spring 2024, I’m honoured to be selected to go on exchange in Ireland at Munster Technological University, completed my fulfilling academic and self-discovery journey successfully. I love discovering cultures through food, that’s why I love traveling and connecting people too.                  I love discovering cultures through food, that’s why I love traveling and connecting people too.
+                  In spring 2024, I’m honoured to be selected to go on exchange in Ireland at Munster Technological University, completed my fulfilling academic and self-discovery journey successfully. I love discovering cultures through food, that’s why I love traveling and connecting people too.
                 </p>
                 <p>
                   In summer 2024, I was working as a Cloud Software Engineering trainee at Kempower, I gained experience in both front-end and backend development with Angular, JavaScript, and AWS cloud services.                </p>
@@ -60,11 +60,11 @@ const About = () => {
             {[
               ["React JS", "70%"],
               ["Javascript", "60%"],
-              ["Java", "50%"],
+              ["Typescript", "60%"],
               ["MERN stack", "50%"],
               ["AWS services", "50%"],
-              ["NoSQL, SQL", "50%"],
-              ["Jest Testing", "50%"],
+              ["NoSQL, SQL", "70%"],
+              ["Jest, Playwright Testing", "50%"],
             ].map(([skill, width]) => (
               <div key={skill} className="about-skill">
                 <p>{skill}</p>

@@ -1,3 +1,4 @@
+import work0 from '../assets/knowledge-base-app_img.png'
 import work1 from '../assets/portfolio_project_img.png'
 import work2 from '../assets/minimal_project_img.jpeg'
 import work3 from '../assets/taskbeat_project_img.png'
@@ -7,7 +8,13 @@ import work6 from '../assets/receipt_project_img.png'
 
 const morework_data = [
     {
-        w_img: work1,
+        w_img: work0,
+        title: "The knowledge base app",
+        description: "A summer project with the aim to practice full-stack, markdown-based second-brain app (like Notion + Obsidian) with AI-powered search, summarization, and tagging.",
+        techStack: ["Next.js", "TypeScript & Tailwind", "PostgreSQL", "Vercel deployment"],
+        github: "https://github.com/traangvu/knowledge-base-app"
+        },
+        {w_img: work1,
         title: "Portfolio Website",
         description: "A responsive and animated portfolio site showcasing developer projects, about section, and contact form. Built for easy customization.",
         techStack: ["React", "CSS", "Framer Motion"],
@@ -38,9 +45,9 @@ const morework_data = [
         {
         w_img: work5,
         title: "Design Pattern in Java",
-        description: "A project providing the chance to practice and understand 22 design patterns (behavioral, creational, and structural design pattern types. The tasks gave a proper view on object oriented software design and architecture.",
+        description: "A project providing the chance to practice and understand 22 design patterns (behavioral, creational, and structural design pattern types). The tasks gave a proper view on object oriented software design and architecture.",
         techStack: ["Java", "OOP", "Description and Modelling Technique"],
-        github: "https://github.com/yourusername/landing-page"
+        github: "https://github.com/traangvu/design_pattern_java"
         },
         {
         w_img: work6,
